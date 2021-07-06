@@ -1,0 +1,6 @@
+name: Freetracker
+version: ${project.version}
+main: mc.carlton.freetracker.Freetracker
+api-version: 1.17
+authors: [ suppusmac ]
+description: Compass Tracking Plugin

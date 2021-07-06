@@ -1,0 +1,22 @@
+general:
+  trackedGamemodes: [ADVENTURE, SURVIVAL] #Players not in this gamemode will no be tracked by the tracker item
+
+trackerMechanics:
+  updateOnRightClick: true #Set to true to have the tracker item update distance on right click
+  cycleOnRightClick: false #Set to true to have the tracker item cycle through players on right click
+  minimumDistance: 0.0 #Minimum number of blocks  a player will be tracked
+  maximumDistance: 1000000.0 #Maximum number of blocks a player will be tracked
+  defaultIndexTracked: 0 #The index of the player to be tracked in the list of players sorted by distance.
+                         #If the index does not exist, the closest index will be tracked instead.
+                         #(NOT RECOMMENDED TO CHANGE)
+
+updateTimers:
+  textUpdateTimer: 4 #Number of ticks between update cycles on information when holding a tracker item (1 tick = 0.05 seconds)
+  needleUpdateTimer: 1 #Number of ticks between update cycles on the direction the needle of a tracking item points (1 tick = 0.05 seconds)
+
+displayedInformation:
+  displayPlayerInformationText: true #Set to true to have information displayed when hovering over tracking item.
+                                     #Displayed information depends on parameters below
+  displayDistance: true #Displays the distance to the target
+  displayTargetName: false #Displays the username of the target
+  displayTargetCoordinates: false #Displays the exact coordinates of the target (x,y,z)
