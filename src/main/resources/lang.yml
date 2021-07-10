@@ -1,0 +1,8 @@
+enUS:
+  name: Name
+  distance: distance
+  coordinates: coordinates
+  noPermission: You do not have permission to use this command
+  improperArguments: 'Improper Arguments, try: '
+  mustBeAPlayer: You must be a player to cast this command
+  noTarget: No target can be found

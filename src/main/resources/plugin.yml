@@ -4,3 +4,27 @@ main: mc.carlton.freetracker.Freetracker
 api-version: 1.17
 authors: [ suppusmac ]
 description: Compass Tracking Plugin
+commands:
+  ft:
+    description: Main FreeTracker command
+    aliases: [freeTracker]
+permissions:
+  freeTracker.*:
+    description: Gives access to all FreeTracker permissions and commands
+    default: op
+    children:
+      freeTracker.setTracker: true
+      freeTracker.ignore: true
+      freeTracker.track: true
+  freeTracker.addTracker:
+    description: Allows user to make an item a tracker (and remove an item as a tracker)
+    default: op
+  freeTracker.ignore:
+    description: Allows user to  makes a tracker ignore (and unignore) a given player
+    default: op
+  freeTracker.track:
+    description: Allows user to  makes a tracker track a given player
+    default: op
+  freeTracker.help:
+    description: Allows use of the help command
+    defualt: true

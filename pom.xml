@@ -6,10 +6,10 @@
 
     <groupId>mc.carlton</groupId>
     <artifactId>freetracker</artifactId>
-    <version>1.0-unreleased</version>
+    <version>1.05-unreleased</version>
     <packaging>jar</packaging>
 
-    <name>Freetracker</name>
+    <name>FreeTracker</name>
 
     <description>Compass Tracking Plugin</description>
     <properties>
